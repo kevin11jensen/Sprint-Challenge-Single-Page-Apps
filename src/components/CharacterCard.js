@@ -3,7 +3,7 @@ import { Card, CardHeader } from 'reactstrap';
 
 
 export default function CharacterCard(props) {
-  const {name} props.person;
+  const {name} = props.person;
   return (
     <div>
       <Card>
